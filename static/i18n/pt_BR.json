@@ -35,5 +35,7 @@
   "settings.label.retries": "Tentativas antes de exibir erro de rede",
   "settings.btn.save": "Salvar",
   "settings.services.empty": "Nenhum serviço",
-  "date_format": "DD [de] MMMM [de] YYYY"
+  "date_format": "DD [de] MMMM [de] YYYY",
+  "speech.ticket": "Senha",
+  "speech.activate": "Vocalizar está ativo."
 }

@@ -35,5 +35,7 @@
   "settings.label.retries": "Retries before show network error",
   "settings.btn.save": "Save",
   "settings.services.empty": "Empty",
-  "date_format": "MMMM Do YYYY"
+  "date_format": "MMMM Do YYYY",
+  "speech.ticket": "Ticket",
+  "speech.activate": "Vocalize is active."
 }

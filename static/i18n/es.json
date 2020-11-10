@@ -33,5 +33,7 @@
   "settings.label.speech_enabled": "Vocalizar (experimental !!!)",
   "settings.btn.save": "Guardar",
   "settings.services.empty": "Vacío",
-  "date_format": "DD [de] MMMM [de] YYYY"
+  "date_format": "DD [de] MMMM [de] YYYY",
+  "speech.ticket": "Tiquete",
+  "speech.activate": "Vocalizar está activo."
 }
