@@ -13,12 +13,12 @@ h1.brand {
     padding-left: 20rem;
 }
 
-.scrollbar-hidden::-webkit-scrollbar {
+html::-webkit-scrollbar {
     display: none;
 }
-  
+
 /* Hide scrollbar for IE, Edge add Firefox */
-.scrollbar-hidden {
--ms-overflow-style: none;
-scrollbar-width: none; /* Firefox */
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
 }
