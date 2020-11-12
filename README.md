@@ -15,4 +15,6 @@ https://github.com/novosga/painel-app
 
 Este painel não é um apenas um clone do painel original, é um fork com um sistema de voz que pode ser ativado nas configurações.
 
+Suporte a vídeo simples incluido.
+
 Enjoy.
