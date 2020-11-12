@@ -12,3 +12,6 @@ h1.brand {
 	width: 100%;
     padding-left: 20rem;
 }
+html {
+    overflow: hidden !important;
+}
