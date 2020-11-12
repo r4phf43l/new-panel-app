@@ -12,6 +12,7 @@
   "settings.subtitle": "Configurações do painel",
   "settings.interface.colors": "Cores",
   "settings.label.logo": "Logo",
+  "settings.label.video": "Video",
   "settings.label.page_bg_color_normal": "Fundo da página (Normal)",
   "settings.label.page_font_color_normal": "Fonte da página (Normal)",
   "settings.label.page_bg_color_priority": "Fundo da página (Prioridade)",
