@@ -3,14 +3,14 @@ Fork da versão WEB novosga/painel-app
 
 https://github.com/novosga/painel-app
 
-##Como usar
+## Como usar
 1 - Clone o repositório;
 2 - Clique duas vezes no index.html.
 
-##Observações
+## Observações
 Você pode usar no seu servidor, mas é melhor rodar localmente por questão de desempenho.
 
-##Por que deste fork?
+## Por que deste fork?
 
 Adicionei um recurso de vocalização.
 
