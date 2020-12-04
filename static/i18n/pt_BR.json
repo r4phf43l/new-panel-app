@@ -39,5 +39,8 @@
   "settings.services.empty": "Nenhum serviço",
   "date_format": "DD [de] MMMM [de] YYYY",
   "speech.ticket": "Senha",
-  "speech.activate": "Vocalizar está ativo."
+  "speech.activate": "Vocalizar está ativo.",
+  "settings.label.vocalizeText": "Texto a ser lido",
+  "settings.label.infoVocalizeText": "Use as tags [priority], [ticket], [local], [service] para montar o texto a ser lido durante a vocalização",
+  "settings.label.exampleVocalizeText": "Exemplo: \"Senha: [ticket] [priority], por favor dirija-se ao [local]: [service]\""
 }

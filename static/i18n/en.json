@@ -39,5 +39,8 @@
   "settings.services.empty": "Empty",
   "date_format": "MMMM Do YYYY",
   "speech.ticket": "Ticket",
-  "speech.activate": "Vocalize is active."
+  "speech.activate": "Vocalize is active.",
+  "settings.label.vocalizeText": "Text to be read",
+  "settings.label.infoVocalizeText": "Use the tags [priority], [ticket], [local], [service] to assemble the text to be read during vocalization",
+  "settings.label.exampleVocalizeText": "Example: \"Ticket: [ticket] [priority], please go to [local]: [service]\""
 }

@@ -38,5 +38,8 @@
   "settings.services.empty": "Vacío",
   "date_format": "DD [de] MMMM [de] YYYY",
   "speech.ticket": "Tiquete",
-  "speech.activate": "Vocalizar está activo."
+  "speech.activate": "Vocalizar está activo.",
+  "settings.label.vocalizeText": "Texto a leer",
+  "settings.label.infoVocalizeText": "Usar etiquetas [priority], [ticket], [local], [service] para ensamblar el texto que se leerán durante la vocalización",
+  "settings.label.exampleVocalizeText": "Ejemplo: \"Tiquete: [ticket] [priority], por favor vaya a [local]: [service]\""
 }
