@@ -42,5 +42,10 @@
   "speech.activate": "Vocalizar está ativo.",
   "settings.label.vocalizeText": "Texto a ser lido",
   "settings.label.infoVocalizeText": "Use as tags [priority], [ticket], [local], [service] para montar o texto a ser lido durante a vocalização",
-  "settings.label.exampleVocalizeText": "Exemplo: \"Senha: [ticket] [priority], por favor dirija-se ao [local]: [service]\""
+  "settings.label.exampleVocalizeText": "Exemplo: \"Senha: [ticket] [priority], por favor dirija-se ao [local]: [service]\"",
+  "menu.bkp_json": "Backup das Configurações",
+  "settings.label.upload": "Baixe suas configurações ou faça o upload de seu backup JSON",
+  "settings.btn.upload": "Upload",
+  "settings.btn.download": "Download",
+  "settings.btn.default": "Configurações padrão."
 }

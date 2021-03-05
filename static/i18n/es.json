@@ -41,5 +41,10 @@
   "speech.activate": "Vocalizar está activo.",
   "settings.label.vocalizeText": "Texto a leer",
   "settings.label.infoVocalizeText": "Usar etiquetas [priority], [ticket], [local], [service] para ensamblar el texto que se leerán durante la vocalización",
-  "settings.label.exampleVocalizeText": "Ejemplo: \"Tiquete: [ticket] [priority], por favor vaya a [local]: [service]\""
+  "settings.label.exampleVocalizeText": "Ejemplo: \"Tiquete: [ticket] [priority], por favor vaya a [local]: [service]\"",
+  "menu.bkp_json": "Backup configuración",
+  "settings.label.upload": "Descargue su configuración o cargue su JSON Backup",
+  "settings.btn.upload": "Upload",
+  "settings.btn.download": "Download",
+  "settings.btn.default": "Configuración predeterminada."
 }
