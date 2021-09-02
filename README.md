@@ -15,9 +15,6 @@ npm run dev
 # build electron application for production
 npm run build
 
-# lint all JS/Vue component files in `src/`
-npm run lint
-
 # run locally
 To run localy uncomment publicPath on vue.config.js.
 
