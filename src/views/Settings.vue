@@ -19,22 +19,22 @@
 
           <ul class="menu-list">
             <li>
-              <a @click="showTab('interface')">
+              <a @click="showTab('interface')" :class="{'is-active': tab==='interface'}">
                 {{ 'menu.interface'|trans }}
               </a>
             </li>
             <li>
-              <a @click="showTab('server')">
+              <a @click="showTab('server')" :class="{'is-active': tab==='server'}">
                 {{ 'menu.server'|trans }}
               </a>
             </li>
             <li>
-              <a @click="showTab('services')" v-if="unities.length">
+              <a @click="showTab('services')" v-if="unities.length" :class="{'is-active': tab==='services'}">
                 {{ 'menu.services'|trans }}
               </a>
             </li>
             <li>
-              <a @click="showTab('sound')">
+              <a @click="showTab('sound')" :class="{'is-active': tab==='sound'}">
                 {{ 'menu.sound'|trans }}
               </a>
             </li>
@@ -406,7 +406,7 @@
         <form @submit.prevent="uploadJSON" v-if="tab==='bkp_json'">
           <div class="field">
             <label class="label">
-              {{ 'settings.label.upload'|trans }} {{ cKey }}
+              {{ 'settings.label.upload'|trans }}
             </label>
             <div class="control">
               <input class="input is-medium" type="file" accept=".json" required>
@@ -556,8 +556,8 @@
         if (this.fetchUnities && this.config.server) {
           this.$store
             .dispatch('fetchUnities')
-            .then(() => {}, (error) => {
-              this.$swal('Oops!', error, 'error')
+            .then(() => {}, error => {
+              this.$swal('Oops!', `${error}`, 'error')
             })
           this.fetchUnities = false
         }
@@ -590,7 +590,7 @@
           this.$swal(this.$root.$store.state.dict['alert.title.success'], this.$root.$store.state.dict['alert.message.success'], 'success')
           load(this, false)
         }, error => {
-          this.$swal('Oops!', error, 'error')
+          this.$swal('Oops!', `${error}`, 'error')
         })
       },
       testAlert () {
